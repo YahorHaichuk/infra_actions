@@ -7,10 +7,10 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
   
-  steps:
-  - uses: actions/chechout@v2
+    steps:
+    - uses: actions/chechout@v2
   
-  - name: Run a one line script
-    run: echo "Hello world!"
+    - name: Run a one line script
+      run: echo "Hello world!"
