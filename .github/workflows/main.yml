@@ -68,7 +68,7 @@ jobs:
         # Еssсли вавсвшв ssh-ключ защищён фразой-паролем
         script: |
           # Выполняет pull образа с DockerHub
-          sudo docker pull barmenoid/action_tests
+          sudo docker pull barmenoid/action_tests:v1
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
           sudo docker run --rm -d -p 5000:5000 barmenoid/action_tests
