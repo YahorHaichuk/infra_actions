@@ -71,4 +71,4 @@ jobs:
           sudo docker pull barmenoid/action_tests:v1
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 barmenoid/action_tests
+          sudo docker run --rm -d -p 5000:5000 barmenoid/action_tests:v1
