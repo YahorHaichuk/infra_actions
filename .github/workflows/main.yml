@@ -65,9 +65,8 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         #passphrase: ${{ secrets.PASSPHRASE }}
-        # Еssсли вавсш ssh-ключ защищён фразой-паролем
+        # Еssсли вавсвш ssh-ключ защищён фразой-паролем
         script: |
-          systemctl start docker
           # Выполняет pull образа с DockerHub
           sudo docker pull barmenoid/action_tests
           #остановка всех контейнеров
