@@ -64,7 +64,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        #passphrase: ${{ secrets.PASSPHRASE }}
+        #pass'phrase: ${{ secrets.PASSPHRASE }}
         #bhhss
         # Еssсли вавсlвjшв ssh-ключ защищён фразой-паролем
         script: |
